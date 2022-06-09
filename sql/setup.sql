@@ -11,7 +11,7 @@ CREATE table xiv_jobs (
     requiresexpansion BOOLEAN
 );
 
-INSERT INTO xiv_jobs (name, type, armor, minlevel, requiresexpansion) VALUE
+INSERT INTO xiv_jobs (name, type, armor, minlevel, requiresexpansion) VALUES
 ('Gladiator', 'tank', 'fending', 1, false),
 ('Marauder', 'tank', 'fending', 1, false),
 ('Dark Knight', 'tank', 'fending', 30, true),
@@ -24,4 +24,9 @@ INSERT INTO xiv_jobs (name, type, armor, minlevel, requiresexpansion) VALUE
 ('Arcanist', 'casting dps', 'casting', 1, false),
 ('Conjurer', 'healer', 'healing', 1, false),
 ('Machinist', 'ranged dps', 'aiming', 30, true),
-('Astrologian', 'healer', )
+('Astrologian', 'healer', 'healing', 30, true),
+('Samurai', 'melee dps', 'striking', 50, true),
+('Red Mage', 'casting dps', 'casting', 50, true),
+('Dancer', 'ranged dps', 'aiming', 60, true),
+('Reaper', 'melee dps', 'maiming', 70, true),
+('Sage', 'healer', 'healing', 70, true);
