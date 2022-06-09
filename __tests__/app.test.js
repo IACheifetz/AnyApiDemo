@@ -26,7 +26,7 @@ describe('cats routes', () => {
       type: 'tank',
       armor: 'fending',
       minlevel: 1,
-      issidekick: false,
+      requiresexpansion: false,
     };
     expect(res.body).toEqual(gladiator);
   });
